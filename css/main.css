@@ -603,9 +603,19 @@ input[type="reset"]:focus {
 	vertical-align: middle;
 }
 
-.fa-viber:before {
+/*.fa-viber:before {
 	font-family: 'fa-viber';
 	content: "\e666";
+}*/
+
+.fa-viber {
+	width: 16px;
+	height: 16px;
+	background: url(../img/viber.svg) no-repeat;
+	background-size: contain;
+	position: relative;
+	top: 2px;
+	opacity: .8;
 }
 
 
